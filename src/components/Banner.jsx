@@ -43,7 +43,7 @@ const Banner = ({ videoPosition, title, description, videoId }) => {
               initial="rest"
               whileHover="hover"
             >
-              <span>Enquire Now</span>
+              <span>Know more</span>
               <ChevronRight className="w-6 h-6" />
             </motion.button>
           </div>

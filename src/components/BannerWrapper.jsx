@@ -6,68 +6,49 @@ import { motion } from "framer-motion"
 
 const bannerContents = [
   {
-    title: "TRUSTED BY PARENTS NATIONWIDE",
+    title: "Our Campus – A Perfect Blend of Learning and Nature",
     description:
-      "Sri Sri Academy The International School is elated to be honoured multiple times by the Asian Education Leadership Awards.",
+      "Nestled within five acres of lush green landscape, our school offers a serene and inspiring environment that fosters holistic education. Our infrastructure is thoughtfully designed to integrate modern learning facilities with nature, ensuring students grow in a space that nurtures both their minds and well-being.",
     videoId: "r6sGWTCMz2k",
   },
   {
-    title: "EXCELLENCE IN EDUCATION",
+    title: "Learning Beyond the Classroom",
     description:
-      "Our innovative curriculum and dedicated faculty ensure that every student reaches their full potential.",
+      "Education at SSA HYD extends beyond traditional classrooms. We encourage experiential learning in open spaces, where students can study under the shade of the majestic Baniyan tree, engage in discussions on park benches, or enjoy lessons conducted in harmony with nature.",
     videoId: "r6sGWTCMz2k",
   },
   {
-    title: "NURTURING FUTURE LEADERS",
+    title: "State-of-the-Art Sports Facilities",
     description:
-      "We focus on developing not just academic skills, but also character, creativity, and leadership abilities.",
+      "Our top-notch sports infrastructure fosters discipline, teamwork, and resilience with a dedicated arena, courts for basketball, volleyball, and badminton, a skating rink, gym, outdoor fields, an indoor sports room, and horse riding lessons for balance and confidence.",
     videoId: "r6sGWTCMz2k",
   },
   {
-    title: "STATE-OF-THE-ART FACILITIES",
+    title: "Well-Stocked Library",
     description:
-      "Our campus boasts modern classrooms, advanced labs, and extensive sports facilities to support holistic development.",
+      "Our reader-friendly library offers a rich collection of books, research materials, and digital resources to ignite curiosity and a love for reading.",
     videoId: "r6sGWTCMz2k",
   },
   {
-    title: "GLOBAL PERSPECTIVE",
+    title: "Comfortable Dining & Hygienic Kitchen",
     description:
-      "We prepare students for a globalized world through international exchanges and multicultural experiences.",
+      "A hygienic and well-managed kitchen caters to students with nutritious meals, served in a spacious dining hall designed for comfort and community bonding.",
+    videoId: "r6sGWTCMz2k",
+  },
+  //
+  {
+    title: "Advanced Learning Facilities at SSA-HYD",
+    description: "At SSA HYD, we are committed to integrating advanced technology into our educational framework to enhance learning experiences. Each classroom is equipped with modern Smart Boards, providing interactive and engaging instruction.Our specialized laboratories and learning spaces are designed to enhance understanding and stimulate curiosity.",
     videoId: "r6sGWTCMz2k",
   },
   {
-    title: "COMMITTED TO SUSTAINABILITY",
-    description: "Our eco-friendly initiatives teach students the importance of environmental stewardship.",
+    title: "Cultivating Environmental Stewardship: Our Eco-Friendly Campus Initiatives",
+    description: "At SSA HYD, we are deeply committed to fostering environmental consciousness and sustainable practices within our community. Our campus serves as a living laboratory where students actively engage in various eco-friendly projects, all maintained by our dedicated Eco Club members",
     videoId: "r6sGWTCMz2k",
   },
   {
-    title: "ARTS AND CREATIVITY",
-    description: "We nurture artistic talents through comprehensive programs in visual arts, music, dance, and drama.",
-    videoId: "r6sGWTCMz2k",
-  },
-  {
-    title: "SPORTS EXCELLENCE",
-    description: "Our athletics program promotes teamwork, discipline, and physical fitness across various sports.",
-    videoId: "r6sGWTCMz2k",
-  },
-  {
-    title: "COMMUNITY ENGAGEMENT",
-    description: "We encourage students to give back to society through various outreach and volunteer programs.",
-    videoId: "r6sGWTCMz2k",
-  },
-  {
-    title: "TECHNOLOGY INTEGRATION",
-    description: "Our curriculum incorporates cutting-edge technology to prepare students for the digital age.",
-    videoId: "r6sGWTCMz2k",
-  },
-  {
-    title: "PERSONALIZED LEARNING",
-    description: "We tailor our teaching approaches to meet individual student needs and learning styles.",
-    videoId: "r6sGWTCMz2k",
-  },
-  {
-    title: "LIFELONG LEARNING",
-    description: "We instill a passion for continuous learning that extends beyond the classroom and into life.",
+    title: "Experience Exceptional Residential Facilities at SSA HYD",
+    description: "At SSA HYD, we are dedicated to providing our students with top-tier residential amenities that ensure comfort, health, and safety",
     videoId: "r6sGWTCMz2k",
   },
 ]
