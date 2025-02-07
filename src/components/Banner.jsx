@@ -1,11 +1,11 @@
 "use client"
 
-import React from "react"
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { ChevronRight, X } from "lucide-react"
+import ImageSlider from "./ImageSlider"
 
-const Banner = ({ videoPosition, title, description, videoId }) => {
+const Banner = ({ videoPosition, title, description, videoId, detailedTitle, detailedDescription, slides }) => {
   const [showSheet, setShowSheet] = useState(false)
 
   const contentVariants = {
@@ -68,7 +68,7 @@ const Banner = ({ videoPosition, title, description, videoId }) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
         >
           <motion.div
             initial={{ scale: 0.9, opacity: 0 }}
@@ -77,8 +77,12 @@ const Banner = ({ videoPosition, title, description, videoId }) => {
             transition={{ duration: 0.3 }}
             className="w-full max-w-2xl space-y-6 rounded-2xl border border-white border-opacity-20 bg-white bg-opacity-10 p-10 shadow-2xl backdrop-blur-md"
           >
-            <h2 className="text-3xl font-bold text-white">Enquiry Form</h2>
-            <p className="text-lg text-gray-200">Fill out the form to learn more about our programs.</p>
+            <h2 className="text-2xl font-bold text-white">{detailedTitle}</h2>
+            <p className="text-lg text-gray-200">{detailedDescription}</p>
+
+            {/* ImageSlider Component */}
+            <ImageSlider slides={slides} />
+
             <motion.button
               onClick={() => setShowSheet(false)}
               className="rounded-full bg-red-600 px-8 py-3 text-lg text-white transition-all hover:bg-red-700 hover:shadow-lg flex items-center space-x-2"
