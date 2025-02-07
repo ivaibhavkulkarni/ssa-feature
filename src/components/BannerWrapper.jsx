@@ -88,6 +88,26 @@ const bannerContents = [
     slides: ["/images/campus1.jpg", "/images/campus2.jpg", "/images/campus3.jpg"],
  
   },
+  {
+    title: "Art of Living Programs.",
+    description: "At SSA, we integrate Art of Living programs into our daily routine to promote holistic development among our students. These programs include Utkarsha Yoga, Medha Yoga, and the Intuition Process, each offering unique benefits",
+    videoId: "r6sGWTCMz2k",
+    detailedTitle: "Explore Our Beautiful Campus",
+    detailedDescription:
+      "ate-of-the-art laboratories, every corner of our campus is designed to inspire learning and creativity.",
+    slides: ["/images/campus1.jpg", "/images/campus2.jpg", "/images/campus3.jpg"],
+ 
+  },
+  {
+    title: "Trained Teachers",
+    description: "At SSA, our educators are dedicated to delivering a comprehensive and value-based education that aligns with the Central Board of Secondary Education (CBSE) standards. Under the guidance of the Art of Living Foundation, our teachers undergo extensive training programs that provide a 360-degree perspective on holistic education, ensuring they are well-equipped to foster both academic excellence and moral development in our students.",
+    videoId: "r6sGWTCMz2k",
+    detailedTitle: "Explore Our Beautiful Campus",
+    detailedDescription:
+      "ate-of-the-art laboratories, every corner of our campus is designed to inspire learning and creativity.",
+    slides: ["/images/campus1.jpg", "/images/campus2.jpg", "/images/campus3.jpg"],
+ 
+  },
 ]
 
 const BannerWrapper = () => {
