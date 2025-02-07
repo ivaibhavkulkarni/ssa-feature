@@ -26,7 +26,7 @@ const Banner = ({ videoPosition, title, description, videoId, detailedTitle, det
       className="relative w-full overflow-hidden rounded-xl bg-gradient-to-r from-purple-900 to-indigo-900 shadow-2xl mb-8"
     >
       <div className="absolute inset-0 bg-black opacity-30"></div>
-      <div className="relative z-10 flex flex-col md:flex-row h-full">
+      <div className="relative z-10 flex flex-col md:flex-row h-full overflow-x-auto">
         <motion.div
           className={`flex-1 order-1 ${videoPosition === "left" ? "md:order-1" : "md:order-2"}`}
           variants={contentVariants}
@@ -68,20 +68,22 @@ const Banner = ({ videoPosition, title, description, videoId, detailedTitle, det
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm"
+          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm overflow-y-auto"
         >
           <motion.div
             initial={{ scale: 0.9, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="w-full max-w-2xl space-y-6 rounded-2xl border border-white border-opacity-20 bg-white bg-opacity-10 p-10 shadow-2xl backdrop-blur-md"
+            className="w-full max-w-2xl space-y-6 rounded-2xl border border-white border-opacity-20 bg-white bg-opacity-10 p-10 shadow-2xl backdrop-blur-md overflow-y-auto max-h-[90vh]"
           >
             <h2 className="text-2xl font-bold text-white">{detailedTitle}</h2>
             <p className="text-lg text-gray-200">{detailedDescription}</p>
 
             {/* ImageSlider Component */}
-            <ImageSlider slides={slides} />
+            <div className="overflow-hidden w-full">
+              <ImageSlider slides={slides} />
+            </div>
 
             <motion.button
               onClick={() => setShowSheet(false)}
@@ -101,4 +103,3 @@ const Banner = ({ videoPosition, title, description, videoId, detailedTitle, det
 }
 
 export default Banner
-

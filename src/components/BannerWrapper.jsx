@@ -10,7 +10,7 @@ const bannerContents = [
     detailedTitle: "Explore Our Beautiful Campus",
       detailedDescription:
         "ate-of-the-art laboratories, every corner of our campus is designed to inspire learning and creativity.",
-      slides: ["https://thepremiaacademy.com/assets/img/academics/elementary-school.png"],
+      slides: ["https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Staples_High_School%2C_Westport%2C_CT.jpg/1200px-Staples_High_School%2C_Westport%2C_CT.jpg","https://thepremiaacademy.com/assets/img/academics/elementary-school.png","https://schooledu.telangana.gov.in/SCHOOLEDUCATION/img/theme/revolution/New/slider1.jpg"],
     
   },
   {
