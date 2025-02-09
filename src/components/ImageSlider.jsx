@@ -13,7 +13,7 @@ const ImageSlider = ({ slides, interval = 3000 }) => {
   }, [slides, interval])
 
   return (
-    <div className="relative w-full max-w-lg mx-auto overflow-hidden rounded-lg">
+    <div className="mt-4 w-full h-auto rounded-md">
       <AnimatePresence mode="wait">
         <motion.img
           key={slides[current]}
